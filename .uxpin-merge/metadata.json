@@ -1,0 +1,1518 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/alert/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/alert/merge/alertMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/alert/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "alertMerge",
+          "presets": [
+            {
+              "elements": {
+                "alert1961569356": {
+                  "name": "AlertMerge",
+                  "props": {
+                    "message": "Merge – code–based design revolution!"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "alert1961569356"
+            }
+          ],
+          "properties": [
+            {
+              "description": "Type of Alert styles, options:`success`, `info`, `warning`, `error`",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "info"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Whether Alert can be closed",
+              "isRequired": false,
+              "name": "closable",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Close text to show",
+              "isRequired": false,
+              "name": "closeText",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Content of Alert",
+              "isRequired": true,
+              "name": "message",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Additional content of Alert",
+              "isRequired": false,
+              "name": "description",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Callback when close Alert",
+              "isRequired": false,
+              "name": "onClose",
+              "type": {
+                "name": "unsupported",
+                "structure": {
+                  "raw": "bivarianceHack(event: E): void"
+                }
+              }
+            },
+            {
+              "description": "Trigger when animation ending of Alert",
+              "isRequired": false,
+              "name": "afterClose",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Whether to show icon",
+              "isRequired": false,
+              "name": "showIcon",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "iconType",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "style",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "prefixCls",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "banner",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/avatar/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/avatar/merge/avatarMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/avatar/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "avatarMerge",
+          "presets": [
+            {
+              "elements": {
+                "avatar1961569356": {
+                  "name": "AvatarMerge",
+                  "props": {
+                    "icon": "user"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "avatar1961569356"
+            }
+          ],
+          "properties": [
+            {
+              "description": "Shape of avatar, options:`circle`, `square`",
+              "isRequired": false,
+              "name": "shape",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "square"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    },
+                    {
+                      "name": "number",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Src of image avatar",
+              "isRequired": false,
+              "name": "src",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Srcset of image avatar",
+              "isRequired": false,
+              "name": "srcSet",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Type of the Icon to be used in avatar",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "style",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "prefixCls",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "alt",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onError",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/button/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/button/merge/buttonMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/button/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "buttonMerge",
+          "presets": [
+            {
+              "elements": {
+                "button1961569356": {
+                  "name": "ButtonMerge",
+                  "props": {
+                    "children": "Merge!"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "button1961569356"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ghost"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dashed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "danger"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "shape",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circle-outline"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "loading",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "boolean",
+                      "structure": {}
+                    },
+                    {
+                      "name": "shape",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "ghost",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "block",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": true,
+              "name": "href",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "target",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "htmlType",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "submit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "button"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "reset"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/calendar/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/calendar/merge/calendarMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/calendar/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CalendarMerge",
+          "presets": [
+            {
+              "elements": {
+                "calendar1961569356": {
+                  "name": "CalendarMerge",
+                  "props": {
+                    "fullscreen": false
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "calendar1961569356"
+            }
+          ],
+          "properties": []
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/checkbox/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/checkbox/merge/checkboxMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/checkbox/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "checkboxMerge",
+          "presets": [
+            {
+              "elements": {
+                "checkbox1961569356": {
+                  "name": "CheckboxMerge",
+                  "props": {
+                    "children": "Merge"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "checkbox1961569356"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "prefixCls",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "defaultChecked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "style",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onMouseEnter",
+              "type": {
+                "name": "unsupported",
+                "structure": {
+                  "raw": "bivarianceHack(event: E): void"
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onMouseLeave",
+              "type": {
+                "name": "unsupported",
+                "structure": {
+                  "raw": "bivarianceHack(event: E): void"
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onKeyPress",
+              "type": {
+                "name": "unsupported",
+                "structure": {
+                  "raw": "bivarianceHack(event: E): void"
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onKeyDown",
+              "type": {
+                "name": "unsupported",
+                "structure": {
+                  "raw": "bivarianceHack(event: E): void"
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "value",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "tabIndex",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "name",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/date-picker/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/date-picker/merge/datePickerMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/date-picker/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "datePickerMerge",
+          "presets": [
+            {
+              "elements": {
+                "datepicker1961569356": {
+                  "name": "DatePickerMerge",
+                  "props": {}
+                }
+              },
+              "name": "default",
+              "rootId": "datepicker1961569356"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "number",
+                      "structure": {}
+                    },
+                    {
+                      "name": "string",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "prefixCls",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "inputPrefixCls",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "format",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "string",
+                      "structure": {}
+                    },
+                    {
+                      "name": "array",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "allowClear",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "suffixIcon",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "style",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "popupStyle",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "dropdownClassName",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "locale",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "getCalendarContainer",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "open",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onOpenChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabledDate",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "placeholder",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "showTime",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/switch/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/switch/merge/switchMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/switch/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "switchMerge",
+          "presets": [
+            {
+              "elements": {
+                "dropdown1961569356": {
+                  "name": "DropdownMerge",
+                  "props": {}
+                }
+              },
+              "name": "default",
+              "rootId": "dropdown1961569356"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "prefixCls",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "defaultChecked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checkedChildren",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "unCheckedChildren",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "loading",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "autoFocus",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "style",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "components/time-picker/merge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "typescript",
+              "path": "components/time-picker/merge/timePickerMerge.tsx"
+            },
+            "presets": [
+              {
+                "path": "components/time-picker/merge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "timePickerMerge",
+          "presets": [
+            {
+              "elements": {
+                "timepicker1961569356": {
+                  "name": "TimePickerMerge",
+                  "props": {}
+                }
+              },
+              "name": "default",
+              "rootId": "timepicker1961569356"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "className",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "default"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "open",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "format",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onOpenChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "placeholder",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "prefixCls",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hideDisabledOptions",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabledHours",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabledMinutes",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabledSeconds",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "style",
+              "type": {
+                "name": "shape",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "use12Hours",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focusOnOpen",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hourStep",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "minuteStep",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "secondStep",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "allowEmpty",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "inputReadOnly",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "clearText",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "popupClassName",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "suffixIcon",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": ""
+}

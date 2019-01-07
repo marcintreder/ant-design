@@ -1,0 +1,11 @@
+{
+  "rootId": "calendar1961569356",
+  "elements": {
+    "calendar1961569356": {
+      "name": "CalendarMerge",
+      "props": {
+        "fullscreen": false
+      }
+    }
+  }
+}

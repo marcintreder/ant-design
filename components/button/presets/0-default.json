@@ -1,0 +1,11 @@
+{
+  "rootId": "button4038267449",
+  "elements": {
+    "button4038267449": {
+      "name": "Button",
+      "props": {
+        "children": "Merge!"
+      }
+    }
+  }
+}

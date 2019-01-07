@@ -42,6 +42,7 @@
     "@ant-design/icons": "~1.1.15",
     "@ant-design/icons-react": "~1.1.2",
     "array-tree-filter": "^2.1.0",
+    "autoprefixer": "^9.4.4",
     "babel-runtime": "6.x",
     "classnames": "~2.2.6",
     "create-react-class": "^15.6.3",
@@ -51,6 +52,7 @@
     "enquire.js": "^2.1.6",
     "intersperse": "^1.0.0",
     "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "^0.5.0",
     "moment": "^2.22.2",
     "omit.js": "^1.0.0",
     "prop-types": "^15.6.2",
@@ -88,6 +90,7 @@
     "react-lifecycles-compat": "^3.0.4",
     "react-slick": "~0.23.2",
     "resize-observer-polyfill": "^1.5.0",
+    "rucksack-css": "^1.0.2",
     "shallowequal": "^1.1.0",
     "warning": "~4.0.2"
   },
@@ -99,6 +102,7 @@
     "@types/react-dom": "^16.0.11",
     "@types/react-intl": "^2.3.14",
     "@types/react-slick": "^0.23.2",
+    "@uxpin/merge-cli": "0.1.0-dev.2",
     "@yesmeck/offline-plugin": "^5.0.5",
     "ansi-styles": "^3.2.1",
     "antd-theme-generator": "^1.1.4",
@@ -174,6 +178,7 @@
     "reqwest": "^2.0.5",
     "rimraf": "^2.6.2",
     "scrollama": "^1.4.4",
+    "style-loader": "^0.23.1",
     "stylelint": "~9.6.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-standard": "^18.2.0",
@@ -214,7 +219,8 @@
     "lint-staged:ts": "tsc && node node_modules/tslint/bin/tslint",
     "lint-staged:es": "eslint ./.*.js ./webpack.config.js",
     "lint-staged:demo": "cross-env RUN_ENV=DEMO eslint --ext '.md'",
-    "prettier": "node ./scripts/prettier.js"
+    "prettier": "node ./scripts/prettier.js",
+    "uxpin": "uxpin-merge --webpack-config ./uxpin.webpack.config.js --wrapper ./components/Wrapper/UXPinWrapper.js --uxpin-domain merge.uxpin.cloud"
   },
   "pre-commit": [
     "lint-staged"

@@ -1,0 +1,11 @@
+{
+  "rootId": "checkbox1961569356",
+  "elements": {
+    "checkbox1961569356": {
+      "name": "CheckboxMerge",
+      "props": {
+        "children": "Merge"
+      }
+    }
+  }
+}
