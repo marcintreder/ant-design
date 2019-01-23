@@ -117,6 +117,7 @@
     "commander": "^2.18.0",
     "core-js": "^2.5.7",
     "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
     "css-split-webpack-plugin": "^0.2.6",
     "dekko": "^0.2.1",
     "docsearch.js": "^2.5.2",
