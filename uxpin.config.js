@@ -12,11 +12,11 @@ module.exports = {
           'components/time-picker/merge/timePickerMerge.tsx',
           'components/switch/merge/switchMerge.tsx',
           'components/checkbox/merge/checkboxMerge.tsx',
-        ]
-      }
-    ]
+        ],
+      },
+    ],
   },
-  name: 'Ant Design'
+  name: 'Ant Design',
 };
 
 // broken components
